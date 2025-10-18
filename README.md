@@ -8,18 +8,19 @@ These exercises are inspired by 42 School’s C++ modules and are designed to st
 
 ## 🗂️ Repository Structure
 
+```
 CPPs/
-├── cpp00/ → Basics of C++ and I/O
-├── cpp01/ → Memory allocation and references
-├── cpp02/ → Orthodox Canonical Form and fixed-point numbers
-├── cpp03/ → Inheritance and class hierarchies
-├── cpp04/ → Abstract classes and polymorphism
-├── cpp05/ → Exception handling and bureaucracy simulation
-├── cpp06/ → Type conversion and serialization
-├── cpp07/ → Templates and iterators
-├── cpp08/ → STL containers and algorithms
-└── cpp09/ → Advanced containers and algorithmic exercises
-
+├── cpp00/ → Basics of C++ and I/O  
+├── cpp01/ → Memory allocation and references  
+├── cpp02/ → Orthodox Canonical Form and fixed-point numbers  
+├── cpp03/ → Inheritance and class hierarchies  
+├── cpp04/ → Abstract classes and polymorphism  
+├── cpp05/ → Exception handling and bureaucracy simulation  
+├── cpp06/ → Type conversion and serialization  
+├── cpp07/ → Templates and iterators  
+├── cpp08/ → STL containers and algorithms  
+└── cpp09/ → Advanced containers and algorithmic exercises  
+```
 
 Each module (`cppXX`) contains multiple exercises (`ex00`, `ex01`, etc.) implemented in separate folders.  
 Each exercise is self-contained with its own source files and `Makefile`.
@@ -91,28 +92,41 @@ Each exercise is self-contained with its own source files and `Makefile`.
 Each exercise includes its own `Makefile`.  
 To compile a specific project, navigate into its folder and run:
 
+```bash
 make
 ./program_name
+```
 
 Example:
+```bash
 cd cpp03/ex02
 make
 ./a.out
+```
 
 To clean up compiled files:
+```bash
 make clean
+```
 
-⚙️ Requirements
-C++98 standard
-clang++ or g++ compiler
-Each project should compile with the following flags:
--Wall -Wextra -Werror -std=c++98
+---
 
-🧭 Learning Objectives
+## ⚙️ Requirements
+
+- **C++98 standard**
+- **clang++** or **g++** compiler
+- Each project should compile with the following flags:
+  ```bash
+  -Wall -Wextra -Werror -std=c++98
+  ```
+
+---
+
+## 🧭 Learning Objectives
 
 Through these exercises, you will:
-- Strengthen your understanding of Object-Oriented Programming (OOP).
-- Practice proper memory management and RAII principles.
-- Master inheritance, polymorphism, and templates.
-- Gain experience with C++ Standard Template Library (STL).
+- Strengthen your understanding of **Object-Oriented Programming** (OOP).
+- Practice proper **memory management** and **RAII** principles.
+- Master **inheritance**, **polymorphism**, and **templates**.
+- Gain experience with **C++ Standard Template Library (STL)**.
 - Improve debugging and code organization skills.
